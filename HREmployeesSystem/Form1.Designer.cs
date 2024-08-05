@@ -92,6 +92,7 @@
             this.Giriş.TabIndex = 5;
             this.Giriş.Text = "button1";
             this.Giriş.UseVisualStyleBackColor = false;
+            this.Giriş.Click += new System.EventHandler(this.Giriş_Click);
             // 
             // Çıkış
             // 
