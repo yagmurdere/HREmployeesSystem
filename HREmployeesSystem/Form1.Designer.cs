@@ -1,6 +1,6 @@
 ﻿namespace HREmployeesSystem
 {
-    partial class Form1
+    partial class HR
     {
         /// <summary>
         /// Required designer variable.
@@ -80,6 +80,7 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(486, 165);
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(185, 22);
             this.textBox2.TabIndex = 4;
             // 
@@ -90,7 +91,7 @@
             this.Giriş.Name = "Giriş";
             this.Giriş.Size = new System.Drawing.Size(81, 49);
             this.Giriş.TabIndex = 5;
-            this.Giriş.Text = "button1";
+            this.Giriş.Text = "giriş\r\n";
             this.Giriş.UseVisualStyleBackColor = false;
             this.Giriş.Click += new System.EventHandler(this.Giriş_Click);
             // 
@@ -102,11 +103,11 @@
             this.Çıkış.Name = "Çıkış";
             this.Çıkış.Size = new System.Drawing.Size(81, 49);
             this.Çıkış.TabIndex = 6;
-            this.Çıkış.Text = "button2";
+            this.Çıkış.Text = "çıkış";
             this.Çıkış.UseVisualStyleBackColor = false;
             this.Çıkış.Click += new System.EventHandler(this.Çıkış_Click);
             // 
-            // Form1
+            // HR
             // 
             this.AcceptButton = this.Giriş;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -120,7 +121,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
+            this.Name = "HR";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -11,9 +11,9 @@ using System.Data.SqlClient;
 
 namespace HREmployeesSystem
 {
-    public partial class Form1 : Form
+    public partial class HR : Form
     {
-        public Form1()
+        public HR()
         {
             InitializeComponent();
         }
